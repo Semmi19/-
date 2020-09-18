@@ -1,0 +1,283 @@
+ body{ background: #414040 url(img/page_background.jpg );  height:1550px;
+		padding:0px; 
+		 margin:0px;}  
+ 
+
+ header{  margin-left:150px;margin-top:50px; max-width:75%; height:98px; background:#ffffff;  }                                              /*  header*/ 
+ .header_logo img{margin-left:30px;margin-top:30px; }
+  .header_list{width:170px; height:40px; position:relative; left:78.5%; bottom:50%;  line-height: 1.5;}
+   .header_list_telephone span,.header_list_sms span{ color:#868686;}
+    .header_list_telephone a,.header_list_sms a{ text-decoration: none; }
+	 nav{margin-left:150px; padding-top:10px; max-width:75%; height:30px; background:#2f2f2f; display: flex; justify-content:space-around;}		 /* nav*/ 
+      nav a {  text-decoration: none;display: inline-block;color:#ffeb3b;line-height: 1;cursor: pointer; }
+       nav a span{   color:#8a8a8a;}
+	    nav a:after {margin-top:10px;
+					background-color: #7cbe5c;
+					display: block;
+					content: "";
+					height: 5px;
+					width: 0%;
+					-webkit-transition: width .0s ease-in-out;
+					-moz--transition: width .0s ease-in-out;
+					transition: width .0s ease-in-out;}
+		 nav a:hover:after,nav a:focus:after {width: 100%;}
+		  .contener{ 																											/* contener */ 
+						position:relative; 
+						margin-left:150px;
+						max-width:75%; 
+						height:1289px; 
+						background:#ffffff;}                     		 
+		   .contener .banner_img{
+								   margin-left:2.4%; 
+								   text-align: center;
+								   margin-top: -8%; 
+								   width: 95%;
+								   height: auto;}
+		    .banner p,.banner h1{ display: inline-block;position: relative;margin: 0px;color: #ffffff; }
+		     .background_for_h1{
+									position:relative; 
+									top: 70px;
+									left: 6%;
+									height: 60px; 
+									width:54%;
+									background-color: #7cbd62; 
+									opacity: 0.95; }
+		   	  .banner p{font-size:1.2em; bottom: 1.6em; left:6%;} 
+				.banner h1{font-size: 2.5em; color: #ffffff;right:34.5%; top:0.5em; }
+		 	     section{  margin-top:15px;  display: flex; justify-content: space-evenly; }													 /* section */ 
+			      .column_1 p,.column_1 h2,.column_2 p,.column_2 h2,.column_3 p,.column_3 h2{font-size:0.8em; text-align:  center;color:#adadad;}
+			       .column_1 h2,.column_2 h2,.column_3 h2 {
+															border-bottom: 1px solid #dedede;
+															padding-bottom: 10px; 
+															font-size:1.2em; 
+															color:#414141;}
+		   	        .column_1 input,.column_2 input,.column_3 input{		
+																	display: flex; 
+																	justify-content: space-evenly; 
+																	width:40%; 
+																	height:15%;
+																	background: url(img/arrow.png) no-repeat;
+																	background-position: right;
+																	padding-right: 16%;
+																	background-color: #7bbc5b; 
+																	border: 2px solid #accf9b;
+																	border-radius: 2px; 
+																	color: #ffffff; 
+																	margin: auto; 
+																	padding-left:30px;
+																	margin-top: 25px;}
+						aside{ width:100%;}											 /*  aside 1 и 2 столюик*/
+					     aside h2{
+									border-bottom: 1px solid #dedede;
+									padding-bottom: 10px;
+									margin-top: 5.2%;
+									font-size:1.2em; 
+									text-align: center;
+									color:#414141; 
+									width: 25%; 
+									position: relative;
+									left: 37%;}    								 
+						 .aside_our_clients,.aside_latest_projects{display: flex; justify-content: space-evenly; margin-top: 20px; margin-bottom: 25px;}
+						  .latest_project_in_rand{width:130px; height:130px; }
+						  .text_in_black{color:#333333;}										
+					   	   footer{ background-color:#000000; max-width:75%; height:100px;margin-left:150px;}			      								/* footer */ 
+							.bulleted_list{ margin: 0px; color:#6d6d6d;  display: grid;  grid-template-columns:  100px 100px; font-size:0.8em;    padding-top: 15px;    line-height: 1.5; }								
+							 .list_of_social_networks{  display: inline;     font-size: -webkit-xxx-large;     margin-left: 59%; width: 200px;}								
+							  .bloc_bulleted_list {width: 200px;float: left;}		
+							   .list_of_social_networks p { font-size: 10px; color:#6d6d6d; margin-top: auto; direction: rtl;margin-right: 30px; }
+																	
+																	
+																	
+		
+	
+		
+		
+		
+ @media screen and (max-width:1239px){  .banner h1 {font-size: 2em;} .banner h1{     top: 0.9em;}   } 
+ @media screen and (max-width:1100px){  .banner h1 {font-size: 1.7em;} .banner h1{top: 0.4em;}  .background_for_h1 {      top: 50px;  height: 50px; width: 50%;  } }
+ 
+@media screen and  (min-width : 320px) and (max-width : 480px){      
+
+
+	header {    height: 60px;
+				margin-left: 60px;
+				margin-top: 20px;	}													/*    header*/
+      .header_logo img {                          
+					margin-left: 10px;
+					margin-top: 10px;
+					width: 20%;
+				}
+				
+       .header_list {   
+				   font-size: 9px;
+					margin-top: 9%;
+					margin-left: -23%;}
+        nav{ 																					/*    nav   */
+			display: grid;
+			grid-template-columns: 20px 30px 45px 30px 35px;
+			justify-content: space-around;
+			font-size: 10px; 
+			margin-left: 60px;}
+		.contener {  position: relative;  		margin-left: 60px;											/*    contener   */
+					height: 1638px;											
+					 margin-left: 60px;
+					 margin-top: 25px;} 
+         .banner p {
+					font-size: 0.1em;
+					bottom: 12.8em;
+					left: 4%;}	
+		  .banner h1 {font-size: 0.7em; right: -5%; top:-2em; }  /*    для 360на480  right: 42%;  top:-0.4em; */
+         .contener .banner_img {margin-top: -21%;}  /*    для 360на480 margin-top: -12%;     */
+		  .background_for_h1 {
+								top: 15px;
+								left: 10px;
+								height: 20px;
+								width: 59%;}         /*    для 360на480  width: 53%;  */
+          aside h2,.column_1 h2,.column_2 h2,.column_3 h2{																		/*    aside   */
+						margin-top: 9%;
+						font-size: 0.8em;
+						width: 55%;
+						position: relative;
+						left: 23%;
+					}
+         .latest_project_in_rand{width:50px; height:50px;      margin-top: 10px; }
+	      .aside_our_clients, .aside_latest_projects{ display: grid; grid-template-columns: 80px 80px 80px;  margin-left: 10%;   margin-top: 0%; }
+           .our_clients_7_1{ height: 42px; width: 31px;}
+			.our_clients_7_2{ height: 40px; width: 39px;}
+			 .our_clients_7_3{ height: 35px; width: 84px;}
+			  .our_clients_7_4{margin-top: 20px; height: 40px; width: 37px;}
+			   .our_clients_7_5{margin-top: 20px;height: 35px; width: 53px;}
+			    .our_clients_7_6{ margin-top: 20px;height: 37px; width: 37px;}
+		         .our_clients_7_7{ margin-top: 20px; margin-left: 72px; height: 42px; width: 42px;}
+                  .column_1 input, .column_2 input, .column_3 input {               													 /* section */ 
+																width: 30%;
+																font-size: 11px;}
+				   .aside_our_clients, .aside_latest_projects {
+																display: grid;
+																grid-template-columns: 53px 51px 77px;
+																margin-top: 10%;}											
+			      .column_1 p, .column_1 h2, .column_2 p, .column_2 h2, .column_3 p, .column_3 h2 {font-size: 0.6em;}													
+		           section {display: initial;}
+				   
+				    footer {	height: 78px;																										 /* footer */ 
+								margin-left: 60px;
+								font-size: 0.8em;}
+					 .list_of_social_networks {     margin-top: -16px;
+												display: table-caption;
+												font-size: -webkit-xxx-large;
+												margin-left: 59%;
+												}	
+					.social_network_icon_1,.social_network_icon_2,.social_network_icon_3,.social_network_icon_4{ height: 20px; width: 20px;} 
+					.list_of_social_networks p {    width: 200px; margin-left: -80px;}
+					
+ }
+ 
+				@media screen and  (min-width : 360px) and (max-width : 480px){     
+						.contener .banner_img { margin-top: -12%;}														/*    contener   */
+						.banner p {font-size: 0.04em; bottom: 30.8em;}
+						.banner h1 {font-size: 0.7em;right: 40%; top: -4px;} 
+						.list_of_social_networks {margin-left: 75%;}}													/* footer */ 
+ 
+ 
+ 
+ @media only screen and (min-width : 480px) and (max-width : 640px) { 
+
+	   .header_list {font-size: 11px;margin-top: 4%;margin-left: -16%;}													/*    header*/
+ 
+	   .contener {height: 1748px;}																						/*    contener   */
+		.background_for_h1 {width: 48%; top: 29px; left: 21px; height: 20px;}											
+		 .contener .banner_img {margin-top: -8%;}														
+	  	  .banner p {font-size: 0.3em;bottom: 1.5em;left: 6%;}
+		   .banner h1 {font-size: 0.8em; right: 27%; top: 0.9em;}
+ 
+            footer {height: 109px;} 																				/* footer */ 
+			.bulleted_list {display: grid;grid-template-columns: 80px 80px;}
+			 .list_of_social_networks {margin-left: 126%;margin-top: -49%;width: 184px;}}
+
+ @media only screen and (min-width : 640px) and (max-width : 768px) {  
+ 
+ header,footer,.contener,nav {margin-left: 80px;}	
+
+ 
+  .header_list {																												/*    header	*/
+				position: relative;
+				left: 84.5%;
+				bottom: 16%;}
+				
+    .header_logo img {  height: 32px;
+						margin-left: 20px;
+						margin-top: 15px;}
+
+     nav {																															/*    nav   */
+			display: grid;
+			grid-template-columns: 58px 50px 52px 20px 49px;
+			justify-content: space-around;
+			font-size: 14px;
+			padding-top: 11px;
+			    height: 67px;}
+			
+	  .contener {height: 2450px;} 																						/*    contener   */
+	   .background_for_h1 {height: 33px;top: 32px;}		 
+	    .banner p {font-size: 0.6em;     left: 23px; bottom: 22px;}
+         .contener .banner_img {margin-top: -9%;}																					
+          .banner h1 {margin-left: -8%;     top: 5px;font-size: 1.1em;}
+          section {  display: grid;
+			  justify-content: space-evenly; }
+
+	      .aside_our_clients, .aside_latest_projects{  																					/*    aside   */
+														display: grid; 
+														    grid-template-columns: 143px 149px 192px;
+														margin-left: 10%; 
+														margin-top: 10%;  } 
+            .latest_project_in_rand{ margin-top: 7%;}
+			 .our_clients_7_4,.our_clients_7_5,.our_clients_7_6{ margin-top: 20%;}
+			  .our_clients_7_7{  margin-left: 110%;  margin-top: 20%; }
+
+			  .list_of_social_networks {margin-left: 23%;}}
+ 
+ @media only screen and (min-width : 768px) and (max-width : 1023px) {
+		
+			   .header_list {left: 66.5%;	}																									/*    header	*/
+				.contener {height: 2770px;}																									/*    contener   */
+				 .banner h1 {margin-left: 3%;top:9px;font-size: 1.4em;}																
+				  .background_for_h1 {width: 52%;top: 42px; height: 43px;}
+					.banner p {      bottom: 23px;  font-size: 0.7em; left: 36px;}
+					.column_1 h2, .column_2 h2, .column_3 h2 {font-size: 1.3em;}														/* section */ 
+					 .column_1 p, .column_1 h2, .column_2 p, .column_2 h2, .column_3 p, .column_3 h2 {font-size: 1.1em;}
+					  .list_of_social_networks {margin-left: 34%;}                              										/* footer */ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+	/*  .blok_6_sections{
+								margin:60px 0px 0px 0px;
+								display: grid;  
+								grid-template-columns: 600px 600px; }
+			  .blok_6_section_1,.blok_6_section_2{ flex:1; order:1; }
+			   .blok_6_section_3,.blok_6_section_4{flex:2; order:2; }	
+		
+		
+		
+		
+		
+		
+		
+		
+		(max-width:480px )position: absolute;
+    bottom: 40.2%;
+    left: 16%;
+	
+	.green_background p{ position:relative;left: 0.1%; bottom: 70%;color:#ffffff; font-size:1.2em; }
+	        .green_background  h1{ position:relative;left: 2%; bottom: 90%;color:#ffffff; font-size:2.5em;}
+		     .green_background{ width:510px; height:60px; background:#7cbd62;opacity: 0.95; position:relative; bottom: 40.2%; left:16%;} margin-top:15px;
+			 .banner{display: inline; }
+			 
+			 
+			 
+			 
+			 
+			 
