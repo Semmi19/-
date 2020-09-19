@@ -239,7 +239,7 @@
   
   .header_list {position: relative;left: 65.5%;}														/*    header	*/
   .banner h1 {margin-left: 11%;}																			/*    contener   */
-   .banner p{left: 34px; bottom: 18px;}
+   .banner p{left: 50px; bottom: 18px;}
     .contener .banner_img {margin-top: -8%;}}
 
  @media only screen and (min-width : 768px) and (max-width : 1023px) {
