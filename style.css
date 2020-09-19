@@ -234,13 +234,15 @@
 			  .our_clients_7_7{  margin-left: 110%;  margin-top: 20%; }
 
 			  .list_of_social_networks {margin-left: 23%;}}
-   @media only screen and (min-width : 720px) and (max-width : 1280px) {
-  .banner h1 {margin-left: 70%;}																			/*    contener   */
+
+    @media only screen and (min-width : 720px) and (max-width : 1280px) {
   
-  
-  }
+  .header_list {position: relative;left: 65.5%;}														/*    header	*/
+  .banner h1 {margin-left: 6%;}																			/*    contener   */
+   .banner p{left: 34px; bottom: 18px;}
+    .contener .banner_img {margin-top: -8%;}}
+
  @media only screen and (min-width : 768px) and (max-width : 1023px) {
-		
 			   .header_list {left: 66.5%;	}																									/*    header	*/
 				.contener {height: 2770px;}																									/*    contener   */
 				 .banner h1 {margin-left: 3%;top:9px;font-size: 1.4em;}																
