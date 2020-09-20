@@ -220,7 +220,7 @@
 	   .background_for_h1 {height: 33px;top: 32px;}		 
 	    .banner p {font-size: 0.6em;     left: 23px; bottom: 22px;}
          .contener .banner_img {margin-top: -9%;}																					
-          .banner h1 {margin-left: -20%;     top: 5px;font-size: 1.1em;}
+          .banner h1 {margin-left: -8%;     top: 5px;font-size: 1.1em;}
           section {  display: grid;
 			  justify-content: space-evenly; }
 
@@ -238,7 +238,7 @@
     @media only screen and (min-width : 720px) and (max-width : 1280px) {
   
   .header_list {position: relative;left: 65.5%;}														/*    header	*/
-  .banner h1 {margin-left: 11%;}																			/*    contener   */
+  .banner h1 {margin-left: 40%;}																			/*    contener   */
    .banner p{left: 50px; bottom: 18px;}
     .contener .banner_img {margin-top: -8%;}}
 
