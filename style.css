@@ -238,8 +238,8 @@
     @media only screen and (min-width : 720px) and (max-width : 1280px) {
   
   .header_list {position: relative;left: 65.5%;}														/*    header	*/
-  .banner h1 {margin-left: 40%;}																			/*    contener   */
-   .banner p{left: 50px; bottom: 18px;}
+  .banner h1 {margin-left: 1%;}																			/*    contener   */
+   .banner p{left: 58px; bottom: 31px;}
     .contener .banner_img {margin-top: -8%;}}
 
  @media only screen and (min-width : 768px) and (max-width : 1023px) {
