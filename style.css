@@ -237,11 +237,17 @@
 
     @media only screen and (min-width : 720px) and (max-width : 1280px) {
   
-  .header_list {position: relative;left: 65.5%;}														/*    header	*/
-  .banner h1 {margin-left: 6%;}																			/*    contener   */
+  .header_list {position: relative;left: 65.5%;}							/*    header	*/
+  .banner h1 {margin-left: 6%;}										/*    contener   */
    .banner p{left:35px; bottom: 20px;}
     .background_for_h1 {width: 45%;}
-    .contener .banner_img {margin-top: -8%;}}
+     .contener {height: 2550px;}
+      .contener .banner_img {margin-top: -8%;}
+       .list_of_social_networks p {margin-right: 0px;}                          			  /* footer */ 
+	    .list_of_social_networks {margin-left: 28%;}
+}
+
+}
 
  @media only screen and (min-width : 768px) and (max-width : 1023px) {
 			   .header_list {left: 66.5%;	}																									/*    header	*/
