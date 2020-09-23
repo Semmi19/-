@@ -238,10 +238,10 @@
     @media only screen and (min-width : 720px) and (max-width : 1280px) {
   
   .header_list {position: relative;left: 65.5%;}							/*    header	*/
-  .banner h1 {margin-left: 6%;}										/*    contener   */
-   .banner p{left:35px; bottom: 20px;}
-    .background_for_h1 {width: 45%;}
-     .contener {height: 1550px;}
+  .banner h1 {margin-left: 1%;}										/*    contener   */
+   .banner p{left:57px; bottom: 31px;}
+    .background_for_h1 {width: 54%;}
+     .contener {height: 1350px;}
       .contener .banner_img {margin-top: -8%;}
        .list_of_social_networks p {margin-right: 0px;}                          			  /* footer */ 
 	    .list_of_social_networks {margin-left: 28%;}
