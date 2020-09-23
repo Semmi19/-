@@ -241,7 +241,7 @@
   .banner h1 {margin-left: 6%;}										/*    contener   */
    .banner p{left:35px; bottom: 20px;}
     .background_for_h1 {width: 45%;}
-     .contener {height: 2550px;}
+     .contener {height: 1550px;}
       .contener .banner_img {margin-top: -8%;}
        .list_of_social_networks p {margin-right: 0px;}                          			  /* footer */ 
 	    .list_of_social_networks {margin-left: 28%;}
@@ -251,7 +251,7 @@
 
  @media only screen and (min-width : 768px) and (max-width : 1023px) {
 			   .header_list {left: 66.5%;	}																									/*    header	*/
-				.contener {height: 1770px;}																									/*    contener   */
+				.contener {height: 2770px;}																									/*    contener   */
 				 .banner h1 {margin-left: 3%;top:9px;font-size: 1.4em;}																
 				  .background_for_h1 {width: 52%;top: 42px; height: 43px;}
 					.banner p {      bottom: 23px;  font-size: 0.7em; left: 36px;}
