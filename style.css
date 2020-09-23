@@ -251,7 +251,7 @@
 
  @media only screen and (min-width : 768px) and (max-width : 1023px) {
 			   .header_list {left: 66.5%;	}																									/*    header	*/
-				.contener {height: 2770px;}																									/*    contener   */
+				.contener {height: 1770px;}																									/*    contener   */
 				 .banner h1 {margin-left: 3%;top:9px;font-size: 1.4em;}																
 				  .background_for_h1 {width: 52%;top: 42px; height: 43px;}
 					.banner p {      bottom: 23px;  font-size: 0.7em; left: 36px;}
@@ -259,38 +259,7 @@
 					 .column_1 p, .column_1 h2, .column_2 p, .column_2 h2, .column_3 p, .column_3 h2 {font-size: 1.1em;}
 					  .list_of_social_networks {margin-left: 34%;}                              										/* footer */ 
  
- 
- 
- 
- 
- 
- 
  }
-	/*  .blok_6_sections{
-								margin:60px 0px 0px 0px;
-								display: grid;  
-								grid-template-columns: 600px 600px; }
-			  .blok_6_section_1,.blok_6_section_2{ flex:1; order:1; }
-			   .blok_6_section_3,.blok_6_section_4{flex:2; order:2; }	
-		
-		
-		
-		
-		
-		
-		
-		
-		(max-width:480px )position: absolute;
-    bottom: 40.2%;
-    left: 16%;
 	
-	.green_background p{ position:relative;left: 0.1%; bottom: 70%;color:#ffffff; font-size:1.2em; }
-	        .green_background  h1{ position:relative;left: 2%; bottom: 90%;color:#ffffff; font-size:2.5em;}
-		     .green_background{ width:510px; height:60px; background:#7cbd62;opacity: 0.95; position:relative; bottom: 40.2%; left:16%;} margin-top:15px;
-			 .banner{display: inline; }
-			 
-			 
-			 
-			 
 			 
 			 
